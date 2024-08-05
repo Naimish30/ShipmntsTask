@@ -238,10 +238,6 @@ function App() {
           return String(value).toLowerCase().startsWith(filterValue.toLowerCase());
         case "Ends with":
           return String(value).toLowerCase().endsWith(filterValue.toLowerCase());
-        case "Date is":
-
-        case "Equals":
-          return isEqual(dateValue, filterDateValue);
         case "Is null":
           return value === null || value === undefined || value === '';
         case "Is not null":
