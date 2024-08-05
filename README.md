@@ -4,7 +4,7 @@
 Git clone the repository
 
 ```bash
-  cd Shipmnts or cd path/to/your/project 
+  cd ShipmntsTask or cd path/to/your/project 
   npm install
   npm run dev
 ```
