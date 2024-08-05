@@ -215,7 +215,7 @@ function App() {
       const dateValue = new Date(value);
       const filterDateValue = new Date(filterValue);
       switch (condition) {
-        case "Equals" && (columnName!='hiredate'|| columnName!='lastlogin'):
+        case "Equals":
           return value == filterValue;
         case "Not equal":
           return value != filterValue;
